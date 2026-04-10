@@ -1,0 +1,376 @@
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.es�[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=160f8h ( 90360) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00026120 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=00028324 vaddr=40080000 size=07cf4h ( 31988) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41990h (268688) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=000719b8 vaddr=40087cf4 size=05c8ch ( 23692) load[0m
+[0;32mI (251) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (263) cpu_start: Pro cpu up.[0m
+[0;32mI (263) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+D (274) clk: RTC_SLOW_CLK calibration value: 3388058[0m
+[0;32mI (286) cpu_start: Pro cpu start user code[0m
+[0;32mI (286) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (286) cpu_start: Application information:[0m
+[0;32mI (291) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (301) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (308) cpu_start: ELF file SHA256:  e40b3c8468a72ae3...[0m
+[0;32mI (314) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (318) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (323) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (338) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (345) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (357) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (370) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (377) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (390) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (402) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (409) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (415) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (428) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (442) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (448) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (461) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (475) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (481) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (494) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (508) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (514) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (527) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (541) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (547) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (560) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (574) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (580) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (593) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (607) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (613) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (626) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (640) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (645) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (651) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (657) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (669) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (676) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (681) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (687) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (696) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (703) spi_flash: trying chip: winbond[0m
+D (707) spi_flash: trying chip: generic[0m
+[0;32mI (711) spi_flash: detected chip: generic[0m
+[0;32mI (715) spi_flash: flash io: dio[0m
+D (719) cpu_start: calling init function: 0x4010058c[0m
+D (724) cpu_start: calling init function: 0x401003dc[0m
+D (729) cpu_start: calling init function: 0x400e2be8[0m
+D (734) cpu_start: calling init function: 0x400d2610[0m
+D (739) cpu_start: calling init function: 0x400d584c on core: 0[0m
+D (746) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (750) cpu_start: calling init function: 0x4010e768 on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (762) app_start: Starting scheduler on CPU0[0m
+[0;3D (767) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (767) app_start: Starting scheduler on CPU1[0m
+2mI (767) main_task: Started on CPU0[0m
+D (787) heap_init: New heap initialised at 0x3ffe0440[0m
+D (787) heap_init: New heap initialised at 0x3ffe4350[0m
+D (787) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (797) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5807) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5807) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5807) event: running task for loop 0x3ffb7894[0m
+D (5807) event: created task for loop 0x3ffb7894[0m
+D (5817) event: created event loop 0x3ffb7894[0m
+D (5817) esp_netif_lwip: check: remote, if=0x3ffb5670 fn=0x400e495c
+[0m
+D (5827) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5837) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5837) esp-netif_lwip-ppp: Phase Dead[0m
+D (5847) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5847) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5857) uart: queue free spaces: 30[0m
+D (5857) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;32mI (5867) pppos_main: Dang cho module 4G nhan SIM (vong lap 60 giay)...[0m
+[0;33mW (6377) pppos_main: Lan lap 1/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (7877) pppos_main: Lan lap 2/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (9377) pppos_main: Lan lap 3/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (10877) pppos_main: Lan lap 4/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (12377) pppos_main: Lan lap 5/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (13877) pppos_main: Lan lap 6/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (15377) pppos_main: Lan lap 7/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (16877) pppos_main: Lan lap 8/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (18377) pppos_main: Lan lap 9/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (19877) pppos_main: Lan lap 10/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (21377) pppos_main: Lan lap 11/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (22877) pppos_main: Lan lap 12/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (24377) pppos_main: Lan lap 13/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (25877) pppos_main: Lan lap 14/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (27377) pppos_main: Lan lap 15/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (28877) pppos_main: Lan lap 16/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (30377) pppos_main: Lan lap 17/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (31877) pppos_main: Lan lap 18/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (33377) pppos_main: Lan lap 19/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (34877) pppos_main: Lan lap 20/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (36377) pppos_main: Lan lap 21/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (37877) pppos_main: Lan lap 22/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (39377) pppos_main: Lan lap 23/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (40877) pppos_main: Lan lap 24/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (42377) pppos_main: Lan lap 25/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (43877) pppos_main: Lan lap 26/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (45377) pppos_main: Lan lap 27/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (46877) pppos_main: Lan lap 28/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (48377) pppos_main: Lan lap 29/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (49877) pppos_main: Lan lap 30/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (51377) pppos_main: Lan lap 31/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (52877) pppos_main: Lan lap 32/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (54377) pppos_main: Lan lap 33/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (55877) pppos_main: Lan lap 34/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (57377) pppos_main: Lan lap 35/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (58877) pppos_main: Lan lap 36/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (60377) pppos_main: Lan lap 37/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (61877) pppos_main: Lan lap 38/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (63377) pppos_main: Lan lap 39/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (64877) pppos_main: Lan lap 40/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (66377) pppos_main: Lan lap 41/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (67877) pppos_main: Lan lap 42/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (69377) pppos_main: Lan lap 43/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (70877) pppos_main: Lan lap 44/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (72377) pppos_main: Lan lap 45/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (73877) pppos_main: Lan lap 46/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (75377) pppos_main: Lan lap 47/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (76877) pppos_main: Lan lap 48/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (78377) pppos_main: Lan lap 49/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (79877) pppos_main: Lan lap 50/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (81377) pppos_main: Lan lap 51/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (82877) pppos_main: Lan lap 52/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (84377) pppos_main: Lan lap 53/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (85877) pppos_main: Lan lap 54/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (87377) pppos_main: Lan lap 55/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (88877) pppos_main: Lan lap 56/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (90377) pppos_main: Lan lap 57/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (91877) pppos_main: Lan lap 58/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (93377) pppos_main: Lan lap 59/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (94877) pppos_main: Lan lap 60/60: SIM chua san sang, cho them 1 giay...[0m
+[0;31mE (95877) pppos_main: Khong nhan duoc the SIM sau 60 giay, chuong trinh van tiep tuc nhung viec ket noi co the that bai![0m
+[0;32mI (108377) pppos_main: Dang chuyen sang Mode Data (PPPoS) de lay IP...[0m
+D (108377) command_lib: generic_command command ATE0
+[0m
+ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d78ad
+file: "./main/main.c" line 184
+func: app_main
+expression: esp_modem_set_mode(dce, ESP_MODEM_MODE_DATA)
+
+abort() was called at PC 0x4008687f on core 0
+
+
+Backtrace: 0x40081a4e:0x3ffb55c0 0x40086889:0x3ffb55e0 0x4008c49e:0x3ffb5600 0x4008687f:0x3ffb5670 0x400d78ad:0x3ffb56a0 0x4011106b:0x3ffb57c0 0x4008929d:0x3ffb57f0
+
+
+
+
+ELF file SHA256: e40b3c8468a72ae3
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=160f8h ( 90360) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00026120 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00028324 vaddr=40080000 size=07cf4h ( 31988) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41990h (268688) map[0m
+[0;32mI (234) esp_image: segment 4: paddr=000719b8 vaddr=40087cf4 size=05c8ch ( 23692) load[0m
+[0;32mI (251) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (251) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (263) cpu_start: Pro cpu up.[0m
+[0;32mI (263) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (259) cpu_start: App cpu up.[0m
+D (273) clk: RTC_SLOW_CLK calibration value: 3396134[0m
+[0;32mI (286) cpu_start: Pro cpu start user code[0m
+[0;32mI (286) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (286) cpu_start: Application information:[0m
+[0;32mI (291) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (301) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (307) cpu_start: ELF file SHA256:  e40b3c8468a72ae3...[0m
+[0;32mI (313) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (318) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (323) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (338) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (344) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (357) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (370) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (376) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (389) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (402) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (408) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (415) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (428) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (441) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (448) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (461) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (474) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (481) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (494) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (507) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (514) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (527) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (540) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (547) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (560) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (573) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (580) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (593) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (606) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (613) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (626) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (640) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (645) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (651) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (656) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (669) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (675) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (680) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (687) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (695) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (702) spi_flash: trying chip: winbond[0m
+D (706) spi_flash: trying chip: generic[0m
+[0;32mI (710) spi_flash: detected chip: generic[0m
+[0;32mI (715) spi_flash: flash io: dio[0m
+D (719) cpu_start: calling init function: 0x4010058c[0m
+D (724) cpu_start: calling init function: 0x401003dc[0m
+D (729) cpu_start: calling init function: 0x400e2be8[0m
+D (734) cpu_start: calling init function: 0x400d2610[0m
+D (739) cpu_start: calling init function: 0x400d584c on core: 0[0m
+D (745) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (750) cpu_start: calling init function: 0x4010e768 on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (761) app_start: Starting scheduler on CPU0[0m
+[0;3D (766) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (766) app_start: Starting scheduler on CPU1[0m
+2mI (766) main_task: Started on CPU0[0m
+D (786) heap_init: New heap initialised at 0x3ffe0440[0m
+D (786) heap_init: New heap initialised at 0x3ffe4350[0m
+D (786) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (786) main_task: Calling app_main()[0m
+[0;32mI (796) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (796) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5806) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5806) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5806) event: running task for loop 0x3ffb7894[0m
+D (5806) event: created task for loop 0x3ffb7894[0m
+D (5816) event: created event loop 0x3ffb7894[0m
+D (5816) esp_netif_lwip: check: remote, if=0x3ffb5670 fn=0x400e495c
+[0m
+D (5826) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5836) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5836) esp-netif_lwip-ppp: Phase Dead[0m
+D (5846) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5846) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5856) uart: queue free spaces: 30[0m
+D (5856) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;32mI (5866) pppos_main: Dang cho module 4G nhan SIM (vong lap 60 giay)...[0m
+[0;33mW (6376) pppos_main: Lan lap 1/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (7876) pppos_main: Lan lap 2/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (9376) pppos_main: Lan lap 3/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (10876) pppos_main: Lan lap 4/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (12376) pppos_main: Lan lap 5/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (13876) pppos_main: Lan lap 6/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (15376) pppos_main: Lan lap 7/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (16876) pppos_main: Lan lap 8/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (18376) pppos_main: Lan lap 9/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (19876) pppos_main: Lan lap 10/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (21376) pppos_main: Lan lap 11/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (22876) pppos_main: Lan lap 12/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (24376) pppos_main: Lan lap 13/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (25876) pppos_main: Lan lap 14/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (27376) pppos_main: Lan lap 15/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (28876) pppos_main: Lan lap 16/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (30376) pppos_main: Lan lap 17/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (31876) pppos_main: Lan lap 18/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (33376) pppos_main: Lan lap 19/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (34876) pppos_main: Lan lap 20/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (36376) pppos_main: Lan lap 21/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (37876) pppos_main: Lan lap 22/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (39376) pppos_main: Lan lap 23/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (40876) pppos_main: Lan lap 24/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (42376) pppos_main: Lan lap 25/60: SIM chua san sang, cho them 1 giay...[0m
+[0;33mW (43876) pppos_main: Lan lap 26/60: SIM chua san sang, cho them 1 giay...[0m

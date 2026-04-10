@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/CMakeFiles/bootloader
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/CMakeFiles/bootloader.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/CMakeFiles/bootloader-complete.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

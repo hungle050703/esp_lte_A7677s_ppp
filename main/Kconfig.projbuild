@@ -1,0 +1,25 @@
+menu "LTE Modem Configuration"
+
+    config MODEM_TX_PIN
+        int "ESP32 TX Pin (GPIO2)"
+        default 2
+
+    config MODEM_RX_PIN
+        int "ESP32 RX Pin (GPIO4)"
+        default 4
+
+    config MODEM_PWRKEY_PIN
+        int "Modem PWRKEY Pin (GPIO15)"
+        default 13
+
+    config MODEM_RST_PIN
+        int "Modem RESET Pin (GPIO13)"
+            default 15
+
+    config MODEM_APN
+        string "Provider APN"
+        default "v-internet"
+        help
+            APN name for your cellular provider (e.g., m-wap for Mobifone, v-internet for Viettel)
+
+endmenu
