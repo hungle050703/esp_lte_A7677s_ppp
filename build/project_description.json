@@ -1,7 +1,7 @@
 {
     "version":            "1",
     "project_name":       "esp_lte_a7677s_ppp",
-    "project_version":    "1",
+    "project_version":    "7f22f6a-dirty",
     "project_path":       "/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp",
     "idf_path":           "/home/hung-le/esp/esp-idf",
     "build_dir":          "/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build",

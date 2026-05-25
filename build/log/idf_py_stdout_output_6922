@@ -1,0 +1,439 @@
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=16130h ( 90416) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00026158 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0002835c vaddr=40080000 size=07cbch ( 31932) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41bb4h (269236) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=00071bdc vaddr=40087cbc size=05cc4h ( 23748) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (264) cpu_start: Pro cpu up.[0m
+[0;32mI (264) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+D (274) clk: RTC_SLOW_CLK calibration value: 3380314[0m
+[0;32mI (287) cpu_start: Pro cpu start user code[0m
+[0;32mI (287) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (287) cpu_start: Application information:[0m
+[0;32mI (291) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (302) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (308) cpu_start: ELF file SHA256:  6ce452bdd1073f1a...[0m
+[0;32mI (314) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (319) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (323) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (338) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (345) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (358) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (370) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (377) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (390) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (402) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (409) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (416) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (429) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (442) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (449) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (462) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (475) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (481) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (495) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (508) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (514) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (528) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (541) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (547) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (561) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (574) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (580) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (594) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (607) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (613) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (627) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (641) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (646) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (652) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (657) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (669) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (676) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (681) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (688) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (696) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (703) spi_flash: trying chip: winbond[0m
+D (707) spi_flash: trying chip: generic[0m
+[0;32mI (711) spi_flash: detected chip: generic[0m
+[0;32mI (715) spi_flash: flash io: dio[0m
+D (719) cpu_start: calling init function: 0x401007b0[0m
+D (724) cpu_start: calling init function: 0x40100600[0m
+D (730) cpu_start: calling init function: 0x400e2e0c[0m
+D (735) cpu_start: calling init function: 0x400d265c[0m
+D (740) cpu_start: calling init function: 0x400d5898 on core: 0[0m
+D (746) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (751) cpu_start: calling init function: 0x4010e98c on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (762) app_start: Starting scheduler on CPU0[0m
+[0;3D (767) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (767) app_start: Starting scheduler on CPU1[0m
+2mI (767) main_task: Started on CPU0[0m
+D (787) heap_init: New heap initialised at 0x3ffe0440[0m
+D (787) heap_init: New heap initialised at 0x3ffe4350[0m
+D (787) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (797) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5807) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5807) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5807) event: running task for loop 0x3ffb7894[0m
+D (5807) event: created task for loop 0x3ffb7894[0m
+D (5817) event: created event loop 0x3ffb7894[0m
+D (5817) esp_netif_lwip: check: remote, if=0x3ffb55f0 fn=0x400e4b80
+[0m
+D (5827) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5837) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5837) esp-netif_lwip-ppp: Phase Dead[0m
+D (5847) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5847) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5857) uart: queue free spaces: 30[0m
+D (5857) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;32mI (5867) pppos_main: Dang tim the SIM (60s)...[0m
+[0;31mE (95867) pppos_main: Khong tim thay SIM![0m
+[0;32mI (108367) pppos_main: Dang chuyen sang Mode Data (PPPoS) de lay IP voi APN [v-internet]...[0m
+D (108367) command_lib: generic_command command ATE0
+[0m
+ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d7a6f
+file: "./main/main.c" line 204
+func: app_main
+expression: esp_modem_set_mode(dce, ESP_MODEM_MODE_DATA)
+
+abort() was called at PC 0x4008687f on core 0
+
+
+Backtrace: 0x40081a4e:0x3ffb5540 0x40086889:0x3ffb5560 0x4008c49e:0x3ffb5580 0x4008687f:0x3ffb55f0 0x400d7a6f:0x3ffb5620 0x4011128f:0x3ffb57c0 0x4008929d:0x3ffb57f0
+
+
+
+
+ELF file SHA256: 6ce452bdd1073f1a
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=16130h ( 90416) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00026158 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0002835c vaddr=40080000 size=07cbch ( 31932) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41bb4h (269236) map[0m
+[0;32mI (234) esp_image: segment 4: paddr=00071bdc vaddr=40087cbc size=05cc4h ( 23748) load[0m
+[0;32mI (251) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (251) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (263) cpu_start: Pro cpu up.[0m
+[0;32mI (263) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (260) cpu_start: App cpu up.[0m
+D (274) clk: RTC_SLOW_CLK calibration value: 3388723[0m
+[0;32mI (286) cpu_start: Pro cpu start user code[0m
+[0;32mI (286) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (286) cpu_start: Application information:[0m
+[0;32mI (291) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (301) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (308) cpu_start: ELF file SHA256:  6ce452bdd1073f1a...[0m
+[0;32mI (314) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (318) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (323) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (338) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (345) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (357) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (370) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (377) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (389) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (402) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (409) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (415) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (428) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (442) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (448) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (461) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (475) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (481) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (494) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (508) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (514) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (527) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (541) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (547) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (560) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (574) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (580) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (593) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (607) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (613) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (626) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (640) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (645) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (651) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (656) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (669) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (676) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (681) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (687) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (696) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (703) spi_flash: trying chip: winbond[0m
+D (707) spi_flash: trying chip: generic[0m
+[0;32mI (711) spi_flash: detected chip: generic[0m
+[0;32mI (715) spi_flash: flash io: dio[0m
+D (719) cpu_start: calling init function: 0x401007b0[0m
+D (724) cpu_start: calling init function: 0x40100600[0m
+D (729) cpu_start: calling init function: 0x400e2e0c[0m
+D (734) cpu_start: calling init function: 0x400d265c[0m
+D (739) cpu_start: calling init function: 0x400d5898 on core: 0[0m
+D (746) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (750) cpu_start: calling init function: 0x4010e98c on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (761) app_start: Starting scheduler on CPU0[0m
+[0;3D (767) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (767) app_start: Starting scheduler on CPU1[0m
+2mI (767) main_task: Started on CPU0[0m
+D (787) heap_init: New heap initialised at 0x3ffe0440[0m
+D (787) heap_init: New heap initialised at 0x3ffe4350[0m
+D (787) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (797) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5807) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5807) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5807) event: running task for loop 0x3ffb7894[0m
+D (5807) event: created task for loop 0x3ffb7894[0m
+D (5817) event: created event loop 0x3ffb7894[0m
+D (5817) esp_netif_lwip: check: remote, if=0x3ffb55f0 fn=0x400e4b80
+[0m
+D (5827) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5837) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5837) esp-netif_lwip-ppp: Phase Dead[0m
+D (5847) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5847) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5857) uart: queue free spaces: 30[0m
+D (5857) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;32mI (5867) pppos_main: Dang tim the SIM (60s)...[0m
+[0;31mE (95867) pppos_main: Khong tim thay SIM![0m
+[0;32mI (108367) pppos_main: Dang chuyen sang Mode Data (PPPoS) de lay IP voi APN [v-internet]...[0m
+D (108367) command_lib: generic_command command ATE0
+[0m
+ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d7a6f
+file: "./main/main.c" line 204
+func: app_main
+expression: esp_modem_set_mode(dce, ESP_MODEM_MODE_DATA)
+
+abort() was called at PC 0x4008687f on core 0
+
+
+Backtrace: 0x40081a4e:0x3ffb5540 0x40086889:0x3ffb5560 0x4008c49e:0x3ffb5580 0x4008687f:0x3ffb55f0 0x400d7a6f:0x3ffb5620 0x4011128f:0x3ffb57c0 0x4008929d:0x3ffb57f0
+
+
+
+
+ELF file SHA256: 6ce452bdd1073f1a
+
+Rebooting...
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (16) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (29) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (39) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (57) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (72) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=16130h ( 90416) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00026158 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=0002835c vaddr=40080000 size=07cbch ( 31932) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41bb4h (269236) map[0m
+[0;32mI (234) esp_image: segment 4: paddr=00071bdc vaddr=40087cbc size=05cc4h ( 23748) load[0m
+[0;32mI (251) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (251) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (263) cpu_start: Pro cpu up.[0m
+[0;32mI (263) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (260) cpu_start: App cpu up.[0m
+D (274) clk: RTC_SLOW_CLK calibration value: 3392755[0m
+[0;32mI (286) cpu_start: Pro cpu start user code[0m
+[0;32mI (286) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (286) cpu_start: Application information:[0m
+[0;32mI (291) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (301) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (308) cpu_start: ELF file SHA256:  6ce452bdd1073f1a...[0m
+[0;32mI (314) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (318) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (323) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (338) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (345) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (357) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (370) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (377) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (389) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (402) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (409) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (415) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (428) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (442) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (448) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (461) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (475) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (481) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (494) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (508) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (514) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (527) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (541) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (547) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (560) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (574) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (580) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (593) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (607) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (613) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (626) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (640) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (645) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (651) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (656) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (669) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (676) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (681) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (687) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (696) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (703) spi_flash: trying chip: winbond[0m
+D (707) spi_flash: trying chip: generic[0m
+[0;32mI (711) spi_flash: detected chip: generic[0m
+[0;32mI (715) spi_flash: flash io: dio[0m
+D (719) cpu_start: calling init function: 0x401007b0[0m
+D (724) cpu_start: calling init function: 0x40100600[0m
+D (729) cpu_start: calling init function: 0x400e2e0c[0m
+D (734) cpu_start: calling init function: 0x400d265c[0m
+D (739) cpu_start: calling init function: 0x400d5898 on core: 0[0m
+D (746) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (750) cpu_start: calling init function: 0x4010e98c on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (761) app_start: Starting scheduler on CPU0[0m
+[0;3D (767) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (767) app_start: Starting scheduler on CPU1[0m
+2mI (767) main_task: Started on CPU0[0m
+D (787) heap_init: New heap initialised at 0x3ffe0440[0m
+D (787) heap_init: New heap initialised at 0x3ffe4350[0m
+D (787) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (797) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5807) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5807) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5807) event: running task for loop 0x3ffb7894[0m
+D (5807) event: created task for loop 0x3ffb7894[0m
+D (5817) event: created event loop 0x3ffb7894[0m
+D (5817) esp_netif_lwip: check: remote, if=0x3ffb55f0 fn=0x400e4b80
+[0m
+D (5827) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5837) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5837) esp-netif_lwip-ppp: Phase Dead[0m
+D (5847) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5847) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5857) uart: queue free spaces: 30[0m
+D (5857) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;32mI (5867) pppos_main: Dang tim the SIM (60s)...[0m

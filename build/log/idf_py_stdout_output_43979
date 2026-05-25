@@ -1,0 +1,59 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/esp_modem (1.4.2)
+NOTICE: [2/2] idf (5.1.3)
+-- Project sdkconfig file /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig
+Loading defaults file /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig.defaults...
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig.defaults:1 CONFIG_PPP_SUPPORT was replaced with CONFIG_LWIP_PPP_SUPPORT
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig.defaults:2 CONFIG_PPP_NOTIFY_PHASE_SUPPORT was replaced with CONFIG_LWIP_PPP_NOTIFY_PHASE_SUPPORT
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig.defaults:3 CONFIG_PPP_PAP_SUPPORT was replaced with CONFIG_LWIP_PPP_PAP_SUPPORT
+/home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig.defaults:4 CONFIG_PPP_CHAP_SUPPORT was replaced with CONFIG_LWIP_PPP_CHAP_SUPPORT
+-- App "esp_lte_a7677s_ppp" version: 7f22f6a-dirty
+-- Adding linker script /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_system/ld/esp32/sections.ld.in
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-data.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.syscalls.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- Components: app_trace app_update bootloader bootloader_support bt cmock console cxx driver efuse esp-tls esp_adc esp_app_format esp_coex esp_common esp_eth esp_event esp_gdbstub esp_hid esp_http_client esp_http_server esp_https_ota esp_https_server esp_hw_support esp_lcd esp_local_ctrl esp_mm esp_netif esp_netif_stack esp_partition esp_phy esp_pm esp_psram esp_ringbuf esp_rom esp_system esp_timer esp_wifi espcoredump espressif__esp_modem esptool_py fatfs freertos hal heap http_parser idf_test ieee802154 json log lwip main mbedtls mqtt newlib nvs_flash openthread partition_table perfmon protobuf-c protocomm pthread sdmmc soc spi_flash spiffs tcp_transport ulp unity usb vfs wear_levelling wifi_provisioning wpa_supplicant xtensa
+-- Component paths: /home/hung-le/esp/esp-idf/components/app_trace /home/hung-le/esp/esp-idf/components/app_update /home/hung-le/esp/esp-idf/components/bootloader /home/hung-le/esp/esp-idf/components/bootloader_support /home/hung-le/esp/esp-idf/components/bt /home/hung-le/esp/esp-idf/components/cmock /home/hung-le/esp/esp-idf/components/console /home/hung-le/esp/esp-idf/components/cxx /home/hung-le/esp/esp-idf/components/driver /home/hung-le/esp/esp-idf/components/efuse /home/hung-le/esp/esp-idf/components/esp-tls /home/hung-le/esp/esp-idf/components/esp_adc /home/hung-le/esp/esp-idf/components/esp_app_format /home/hung-le/esp/esp-idf/components/esp_coex /home/hung-le/esp/esp-idf/components/esp_common /home/hung-le/esp/esp-idf/components/esp_eth /home/hung-le/esp/esp-idf/components/esp_event /home/hung-le/esp/esp-idf/components/esp_gdbstub /home/hung-le/esp/esp-idf/components/esp_hid /home/hung-le/esp/esp-idf/components/esp_http_client /home/hung-le/esp/esp-idf/components/esp_http_server /home/hung-le/esp/esp-idf/components/esp_https_ota /home/hung-le/esp/esp-idf/components/esp_https_server /home/hung-le/esp/esp-idf/components/esp_hw_support /home/hung-le/esp/esp-idf/components/esp_lcd /home/hung-le/esp/esp-idf/components/esp_local_ctrl /home/hung-le/esp/esp-idf/components/esp_mm /home/hung-le/esp/esp-idf/components/esp_netif /home/hung-le/esp/esp-idf/components/esp_netif_stack /home/hung-le/esp/esp-idf/components/esp_partition /home/hung-le/esp/esp-idf/components/esp_phy /home/hung-le/esp/esp-idf/components/esp_pm /home/hung-le/esp/esp-idf/components/esp_psram /home/hung-le/esp/esp-idf/components/esp_ringbuf /home/hung-le/esp/esp-idf/components/esp_rom /home/hung-le/esp/esp-idf/components/esp_system /home/hung-le/esp/esp-idf/components/esp_timer /home/hung-le/esp/esp-idf/components/esp_wifi /home/hung-le/esp/esp-idf/components/espcoredump /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/managed_components/espressif__esp_modem /home/hung-le/esp/esp-idf/components/esptool_py /home/hung-le/esp/esp-idf/components/fatfs /home/hung-le/esp/esp-idf/components/freertos /home/hung-le/esp/esp-idf/components/hal /home/hung-le/esp/esp-idf/components/heap /home/hung-le/esp/esp-idf/components/http_parser /home/hung-le/esp/esp-idf/components/idf_test /home/hung-le/esp/esp-idf/components/ieee802154 /home/hung-le/esp/esp-idf/components/json /home/hung-le/esp/esp-idf/components/log /home/hung-le/esp/esp-idf/components/lwip /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/main /home/hung-le/esp/esp-idf/components/mbedtls /home/hung-le/esp/esp-idf/components/mqtt /home/hung-le/esp/esp-idf/components/newlib /home/hung-le/esp/esp-idf/components/nvs_flash /home/hung-le/esp/esp-idf/components/openthread /home/hung-le/esp/esp-idf/components/partition_table /home/hung-le/esp/esp-idf/components/perfmon /home/hung-le/esp/esp-idf/components/protobuf-c /home/hung-le/esp/esp-idf/components/protocomm /home/hung-le/esp/esp-idf/components/pthread /home/hung-le/esp/esp-idf/components/sdmmc /home/hung-le/esp/esp-idf/components/soc /home/hung-le/esp/esp-idf/components/spi_flash /home/hung-le/esp/esp-idf/components/spiffs /home/hung-le/esp/esp-idf/components/tcp_transport /home/hung-le/esp/esp-idf/components/ulp /home/hung-le/esp/esp-idf/components/unity /home/hung-le/esp/esp-idf/components/usb /home/hung-le/esp/esp-idf/components/vfs /home/hung-le/esp/esp-idf/components/wear_levelling /home/hung-le/esp/esp-idf/components/wifi_provisioning /home/hung-le/esp/esp-idf/components/wpa_supplicant /home/hung-le/esp/esp-idf/components/xtensa
+-- Configuring done (6.3s)
+-- Generating done (0.5s)
+-- Build files have been written to: /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build
+[1/7] Performing build step for 'bootloader'
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32
+-- Project sdkconfig file /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/sdkconfig
+Compiler supported targets: xtensa-esp32-elf
+
+-- Adding linker script /home/hung-le/esp/esp-idf/components/soc/esp32/ld/esp32.peripherals.ld
+-- App "bootloader" version: v5.1.3
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.api.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.libgcc.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/esp_rom/esp32/ld/esp32.rom.newlib-funcs.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.ld
+-- Adding linker script /home/hung-le/esp/esp-idf/components/bootloader/subproject/main/ld/esp32/bootloader.rom.ld
+-- Components: bootloader bootloader_support efuse esp_app_format esp_common esp_hw_support esp_rom esp_system esptool_py freertos hal log main micro-ecc newlib partition_table soc spi_flash xtensa
+-- Component paths: /home/hung-le/esp/esp-idf/components/bootloader /home/hung-le/esp/esp-idf/components/bootloader_support /home/hung-le/esp/esp-idf/components/efuse /home/hung-le/esp/esp-idf/components/esp_app_format /home/hung-le/esp/esp-idf/components/esp_common /home/hung-le/esp/esp-idf/components/esp_hw_support /home/hung-le/esp/esp-idf/components/esp_rom /home/hung-le/esp/esp-idf/components/esp_system /home/hung-le/esp/esp-idf/components/esptool_py /home/hung-le/esp/esp-idf/components/freertos /home/hung-le/esp/esp-idf/components/hal /home/hung-le/esp/esp-idf/components/log /home/hung-le/esp/esp-idf/components/bootloader/subproject/main /home/hung-le/esp/esp-idf/components/bootloader/subproject/components/micro-ecc /home/hung-le/esp/esp-idf/components/newlib /home/hung-le/esp/esp-idf/components/partition_table /home/hung-le/esp/esp-idf/components/soc /home/hung-le/esp/esp-idf/components/spi_flash /home/hung-le/esp/esp-idf/components/xtensa
+-- Configuring done (3.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader
+[1/1] cd /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader/esp-idf/esptool_py && /home/hung-le/.espressif/python_env/idf5.1_py3.12_env/bin/python /home/hung-le/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[2/7] No install step for 'bootloader'
+[3/7] Completed 'bootloader'
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable esp_lte_a7677s_ppp.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.11.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp_lte_a7677s_ppp.bin
+[7/7] cd /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp-idf/esptool_py && /home/hung-le/.espressif/python_env/idf5.1_py3.12_env/bin/python /home/hung-le/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/partition_table/partition-table.bin /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp_lte_a7677s_ppp.bin
+esp_lte_a7677s_ppp.bin binary size 0x66620 bytes. Smallest app partition is 0x100000 bytes. 0x999e0 bytes (60%) free.

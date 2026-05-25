@@ -1,0 +1,14 @@
+[0;33m--- esp-idf-monitor 1.9.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0m--- 0x400813e8: [0;33mcall_start_cpu1[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_system/port/cpu_start.c[0m[0m:[1;31m159[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S[0m[0m:[1;31m2027[0m
+[0m--- 0x40080000: [0;33m_WindowOverflow4[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/xtensa_vectors.S[0m[0m:[1;31m2027[0m
+[0m--- 0x40000000: [0;33m_WindowOverflow4[0m[0m in [0;32mROM[0m
+[0m--- 0x40100fc8: [0;33m_GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc[0m[0m:[1;31m168[0m
+[0m--- 0x40100e18: [0;33m_GLOBAL__sub_I__ZN9__gnu_cxx9__freeresEv[0m[0m at [0;32m/builds/idf/crosstool-NG/.build/xtensa-esp32-elf/src/gcc/libstdc++-v3/libsupc++/eh_alloc.cc[0m[0m:[1;31m342[0m
+[0m--- 0x400e3524: [0;33mesp_ipc_init[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_system/esp_ipc.c[0m[0m:[1;31m114[0m
+[0m--- 0x400d26ac: [0;33mesp_init_app_elf_sha256[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_app_format/esp_app_desc.c[0m[0m:[1;31m69[0m
+[0m--- 0x400d58e8: [0;33m__esp_system_init_fn_esp_timer_startup_init[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_timer/src/esp_timer.c[0m[0m:[1;31m576[0m
+[0m--- 0x4010f480: [0;33m__esp_system_init_fn_init_components0[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_system/startup.c[0m[0m:[1;31m496[0m
+[0m--- 0x400e5398: [0;33mesp_netif_new_api[0m[0m at [0;32m/home/hung-le/esp/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c[0m[0m:[1;31m689[0m
+[0m

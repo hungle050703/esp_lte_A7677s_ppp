@@ -1,0 +1,7 @@
+[1/4] cd /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp-idf/esptool_py && /home/hung-le/.espressif/python_env/idf5.1_py3.12_env/bin/python /home/hung-le/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/partition_table/partition-table.bin /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/esp_lte_a7677s_ppp.bin
+esp_lte_a7677s_ppp.bin binary size 0x67ae0 bytes. Smallest app partition is 0x100000 bytes. 0x98520 bytes (60%) free.
+[2/4] Performing build step for 'bootloader'
+[1/1] cd /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader/esp-idf/esptool_py && /home/hung-le/.espressif/python_env/idf5.1_py3.12_env/bin/python /home/hung-le/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/hung-le/Test_ethernet/esp_lte_a7677s_ppp/build/bootloader/bootloader.bin
+Bootloader binary size 0x6850 bytes. 0x7b0 bytes (7%) free.
+[3/4] No install step for 'bootloader'
+[4/4] Completed 'bootloader'

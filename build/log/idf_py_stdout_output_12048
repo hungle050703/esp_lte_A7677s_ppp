@@ -1,0 +1,352 @@
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) bo�[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boo�[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;3�[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;3�[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=16290h ( 90768) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000262b8 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=000284bc vaddr=40080000 size=07b5ch ( 31580) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41ca0h (269472) map[0m
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr  7 2026 11:25:14[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=16290h ( 90768) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=000262b8 vaddr=3ffb0000 size=021fch (  8700) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=000284bc vaddr=40080000 size=07b5ch ( 31580) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41ca0h (269472) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=00071cc8 vaddr=40087b5c size=05e24h ( 24100) load[0m
+[0;32mI (252) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (252) boot: Disabling RNG early entropy source...[0m
+[0;32mI (263) cpu_start: Multicore app[0m
+[0;32mI (264) cpu_start: Pro cpu up.[0m
+[0;32mI (264) cpu_start: Starting app cpu, entry point is 0x400813e8[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+D (274) clk: RTC_SLOW_CLK calibration value: 3386150[0m
+[0;32mI (287) cpu_start: Pro cpu start user code[0m
+[0;32mI (287) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (287) cpu_start: Application information:[0m
+[0;32mI (292) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (297) cpu_start: App version:      1[0m
+[0;32mI (302) cpu_start: Compile time:     Apr  7 2026 11:25:10[0m
+[0;32mI (308) cpu_start: ELF file SHA256:  b87356feb13538a5...[0m
+[0;32mI (314) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (319) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (324) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (328) cpu_start: Chip rev:         v3.1[0m
+D (333) memory_layout: Checking 9 reserved memory ranges:[0m
+D (339) memory_layout: Reserved memory range 0x3ff82000 - 0x3ff82000[0m
+D (345) memory_layout: Reserved memory range 0x3ffae000 - 0x3ffae6e0[0m
+D (351) memory_layout: Reserved memory range 0x3ffb0000 - 0x3ffb34c0[0m
+D (358) memory_layout: Reserved memory range 0x3ffe0000 - 0x3ffe0440[0m
+D (364) memory_layout: Reserved memory range 0x3ffe3f20 - 0x3ffe4350[0m
+D (371) memory_layout: Reserved memory range 0x40070000 - 0x40078000[0m
+D (377) memory_layout: Reserved memory range 0x40078000 - 0x40080000[0m
+D (383) memory_layout: Reserved memory range 0x40080000 - 0x4008d980[0m
+D (390) memory_layout: Reserved memory range 0x50001fe8 - 0x50002000[0m
+D (396) memory_layout: Building list of available memory regions:[0m
+D (403) memory_layout: Available memory region 0x3ffae6e0 - 0x3ffb0000[0m
+D (409) memory_layout: Available memory region 0x3ffb34c0 - 0x3ffb8000[0m
+D (416) memory_layout: Available memory region 0x3ffb8000 - 0x3ffc0000[0m
+D (422) memory_layout: Available memory region 0x3ffc0000 - 0x3ffc2000[0m
+D (429) memory_layout: Available memory region 0x3ffc2000 - 0x3ffc4000[0m
+D (435) memory_layout: Available memory region 0x3ffc4000 - 0x3ffc6000[0m
+D (442) memory_layout: Available memory region 0x3ffc6000 - 0x3ffc8000[0m
+D (449) memory_layout: Available memory region 0x3ffc8000 - 0x3ffca000[0m
+D (455) memory_layout: Available memory region 0x3ffca000 - 0x3ffcc000[0m
+D (462) memory_layout: Available memory region 0x3ffcc000 - 0x3ffce000[0m
+D (468) memory_layout: Available memory region 0x3ffce000 - 0x3ffd0000[0m
+D (475) memory_layout: Available memory region 0x3ffd0000 - 0x3ffd2000[0m
+D (482) memory_layout: Available memory region 0x3ffd2000 - 0x3ffd4000[0m
+D (488) memory_layout: Available memory region 0x3ffd4000 - 0x3ffd6000[0m
+D (495) memory_layout: Available memory region 0x3ffd6000 - 0x3ffd8000[0m
+D (501) memory_layout: Available memory region 0x3ffd8000 - 0x3ffda000[0m
+D (508) memory_layout: Available memory region 0x3ffda000 - 0x3ffdc000[0m
+D (515) memory_layout: Available memory region 0x3ffdc000 - 0x3ffde000[0m
+D (521) memory_layout: Available memory region 0x3ffde000 - 0x3ffe0000[0m
+D (528) memory_layout: Available memory region 0x3ffe0440 - 0x3ffe3f20[0m
+D (534) memory_layout: Available memory region 0x3ffe4350 - 0x3ffe8000[0m
+D (541) memory_layout: Available memory region 0x3ffe8000 - 0x3fff0000[0m
+D (548) memory_layout: Available memory region 0x3fff0000 - 0x3fff8000[0m
+D (554) memory_layout: Available memory region 0x3fff8000 - 0x3fffc000[0m
+D (561) memory_layout: Available memory region 0x3fffc000 - 0x40000000[0m
+D (567) memory_layout: Available memory region 0x4008d980 - 0x4008e000[0m
+D (574) memory_layout: Available memory region 0x4008e000 - 0x40090000[0m
+D (581) memory_layout: Available memory region 0x40090000 - 0x40092000[0m
+D (587) memory_layout: Available memory region 0x40092000 - 0x40094000[0m
+D (594) memory_layout: Available memory region 0x40094000 - 0x40096000[0m
+D (600) memory_layout: Available memory region 0x40096000 - 0x40098000[0m
+D (607) memory_layout: Available memory region 0x40098000 - 0x4009a000[0m
+D (614) memory_layout: Available memory region 0x4009a000 - 0x4009c000[0m
+D (620) memory_layout: Available memory region 0x4009c000 - 0x4009e000[0m
+D (627) memory_layout: Available memory region 0x4009e000 - 0x400a0000[0m
+[0;32mI (633) heap_init: Initializing. RAM available for dynamic allocation:[0m
+D (641) heap_init: New heap initialised at 0x3ffae6e0[0m
+[0;32mI (646) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+D (652) heap_init: New heap initialised at 0x3ffb34c0[0m
+[0;32mI (657) heap_init: At 3FFB34C0 len 0002CB40 (178 KiB): DRAM[0m
+[0;32mI (663) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (670) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+D (676) heap_init: New heap initialised at 0x4008d980[0m
+[0;32mI (681) heap_init: At 4008D980 len 00012680 (73 KiB): IRAM[0m
+D (688) intr_alloc: Connected src 46 to int 2 (cpu 0)[0m
+D (693) spi_flash: trying chip: issi[0m
+D (696) spi_flash: trying chip: gd[0m
+D (699) spi_flash: trying chip: mxic[0m
+D (703) spi_flash: trying chip: winbond[0m
+D (707) spi_flash: trying chip: generic[0m
+[0;32mI (711) spi_flash: detected chip: generic[0m
+[0;32mI (716) spi_flash: flash io: dio[0m
+D (720) cpu_start: calling init function: 0x4010089c[0m
+D (725) cpu_start: calling init function: 0x401006ec[0m
+D (730) cpu_start: calling init function: 0x400e2ef8[0m
+D (735) cpu_start: calling init function: 0x400d2674[0m
+D (740) cpu_start: calling init function: 0x400d58b0 on core: 0[0m
+D (746) intr_alloc: Connected src 17 to int 3 (cpu 0)[0m
+D (751) cpu_start: calling init function: 0x4010ea78 on core: 0[0m
+D (757) intr_alloc: Connected src 24 to int 9 (cpu 0)[0m
+[0;32mI (762) app_start: Starting scheduler on CPU0[0m
+[0;3D (767) intr_alloc: Connected src 25 to int 2 (cpu 1)[0m
+[0;32mI (767) app_start: Starting scheduler on CPU1[0m
+2mI (767) main_task: Started on CPU0[0m
+D (787) heap_init: New heap initialised at 0x3ffe0440[0m
+D (787) heap_init: New heap initialised at 0x3ffe4350[0m
+D (787) intr_alloc: Connected src 16 to int 12 (cpu 0)[0m
+[0;32mI (787) main_task: Calling app_main()[0m
+[0;32mI (797) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (797) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+D (5807) esp_netif_lwip: LwIP stack has been initialized[0m
+D (5807) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (5807) event: running task for loop 0x3ffb7894[0m
+D (5807) event: created task for loop 0x3ffb7894[0m
+D (5817) event: created event loop 0x3ffb7894[0m
+D (5817) esp_netif_lwip: check: remote, if=0x3ffb5570 fn=0x400e4c6c
+[0m
+D (5827) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (5837) esp-netif_lwip-ppp: esp_netif_new_ppp: PPP connection created: 0x3ffb8a64[0m
+D (5837) esp-netif_lwip-ppp: Phase Dead[0m
+D (5847) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+[0;32mI (5847) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (5857) uart: queue free spaces: 30[0m
+D (5857) intr_alloc: Connected src 35 to int 13 (cpu 0)[0m
+[0;33mW (5867) pppos_main: === GUI LENH BYPASS SIM_DET: AT+CSDT=0 ===[0m
+[0;32mI (7877) pppos_main: Phan hoi AT+CSDT=0: [0m
+[0;32mI (7877) pppos_main: Dang kiem tra the SIM lien tuc tren UART (Loop Vo Han)...[0m
+[0;31mE (8377) pppos_main: [Vong 1] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (10877) pppos_main: [Vong 2] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (13377) pppos_main: [Vong 3] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (15877) pppos_main: [Vong 4] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (19377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (19377) pppos_main: [Vong 5] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (21877) pppos_main: [Vong 6] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (24377) pppos_main: [Vong 7] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (26877) pppos_main: [Vong 8] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (29377) pppos_main: [Vong 9] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (32877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (32877) pppos_main: [Vong 10] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (35377) pppos_main: [Vong 11] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (37877) pppos_main: [Vong 12] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (40377) pppos_main: [Vong 13] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (42877) pppos_main: [Vong 14] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (46377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (46377) pppos_main: [Vong 15] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (48877) pppos_main: [Vong 16] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (51377) pppos_main: [Vong 17] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (53877) pppos_main: [Vong 18] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (56377) pppos_main: [Vong 19] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (59877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (59877) pppos_main: [Vong 20] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (62377) pppos_main: [Vong 21] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (64877) pppos_main: [Vong 22] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (67377) pppos_main: [Vong 23] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (69877) pppos_main: [Vong 24] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (73377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (73377) pppos_main: [Vong 25] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (75877) pppos_main: [Vong 26] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (78377) pppos_main: [Vong 27] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (80877) pppos_main: [Vong 28] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (83377) pppos_main: [Vong 29] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (86877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (86877) pppos_main: [Vong 30] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (89377) pppos_main: [Vong 31] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (91877) pppos_main: [Vong 32] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (94377) pppos_main: [Vong 33] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (96877) pppos_main: [Vong 34] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (100377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (100377) pppos_main: [Vong 35] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (102877) pppos_main: [Vong 36] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (105377) pppos_main: [Vong 37] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (107877) pppos_main: [Vong 38] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (110377) pppos_main: [Vong 39] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (113877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (113877) pppos_main: [Vong 40] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (116377) pppos_main: [Vong 41] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (118877) pppos_main: [Vong 42] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (121377) pppos_main: [Vong 43] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (123877) pppos_main: [Vong 44] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (127377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (127377) pppos_main: [Vong 45] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (129877) pppos_main: [Vong 46] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (132377) pppos_main: [Vong 47] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (134877) pppos_main: [Vong 48] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (137377) pppos_main: [Vong 49] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (140877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (140877) pppos_main: [Vong 50] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (143377) pppos_main: [Vong 51] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (145877) pppos_main: [Vong 52] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (148377) pppos_main: [Vong 53] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (150877) pppos_main: [Vong 54] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (154377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (154377) pppos_main: [Vong 55] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (156877) pppos_main: [Vong 56] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (159377) pppos_main: [Vong 57] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (161877) pppos_main: [Vong 58] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (164377) pppos_main: [Vong 59] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (167877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (167877) pppos_main: [Vong 60] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (170377) pppos_main: [Vong 61] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (172877) pppos_main: [Vong 62] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (175377) pppos_main: [Vong 63] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (177877) pppos_main: [Vong 64] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (181377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (181377) pppos_main: [Vong 65] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (183877) pppos_main: [Vong 66] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (186377) pppos_main: [Vong 67] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (188877) pppos_main: [Vong 68] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (191377) pppos_main: [Vong 69] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (194877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (194877) pppos_main: [Vong 70] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (197377) pppos_main: [Vong 71] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (199877) pppos_main: [Vong 72] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (202377) pppos_main: [Vong 73] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (204877) pppos_main: [Vong 74] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (208377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (208377) pppos_main: [Vong 75] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (210877) pppos_main: [Vong 76] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (213377) pppos_main: [Vong 77] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (215877) pppos_main: [Vong 78] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (218377) pppos_main: [Vong 79] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (221877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (221877) pppos_main: [Vong 80] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (224377) pppos_main: [Vong 81] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (226877) pppos_main: [Vong 82] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (229377) pppos_main: [Vong 83] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (231877) pppos_main: [Vong 84] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (235377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (235377) pppos_main: [Vong 85] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (237877) pppos_main: [Vong 86] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (240377) pppos_main: [Vong 87] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (242877) pppos_main: [Vong 88] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (245377) pppos_main: [Vong 89] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (248877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (248877) pppos_main: [Vong 90] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (251377) pppos_main: [Vong 91] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (253877) pppos_main: [Vong 92] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (256377) pppos_main: [Vong 93] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (258877) pppos_main: [Vong 94] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (262377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (262377) pppos_main: [Vong 95] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (264877) pppos_main: [Vong 96] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (267377) pppos_main: [Vong 97] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (269877) pppos_main: [Vong 98] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (272377) pppos_main: [Vong 99] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (275877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (275877) pppos_main: [Vong 100] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (278377) pppos_main: [Vong 101] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (280877) pppos_main: [Vong 102] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (283377) pppos_main: [Vong 103] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (285877) pppos_main: [Vong 104] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (289377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (289377) pppos_main: [Vong 105] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (291877) pppos_main: [Vong 106] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (294377) pppos_main: [Vong 107] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (296877) pppos_main: [Vong 108] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (299377) pppos_main: [Vong 109] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (302877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (302877) pppos_main: [Vong 110] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (305377) pppos_main: [Vong 111] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (307877) pppos_main: [Vong 112] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (310377) pppos_main: [Vong 113] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (312877) pppos_main: [Vong 114] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (316377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (316377) pppos_main: [Vong 115] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (318877) pppos_main: [Vong 116] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (321377) pppos_main: [Vong 117] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (323877) pppos_main: [Vong 118] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (326377) pppos_main: [Vong 119] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (329877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (329877) pppos_main: [Vong 120] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (332377) pppos_main: [Vong 121] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (334877) pppos_main: [Vong 122] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (337377) pppos_main: [Vong 123] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (339877) pppos_main: [Vong 124] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (343377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (343377) pppos_main: [Vong 125] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (345877) pppos_main: [Vong 126] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (348377) pppos_main: [Vong 127] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (350877) pppos_main: [Vong 128] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (353377) pppos_main: [Vong 129] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (356877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (356877) pppos_main: [Vong 130] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (359377) pppos_main: [Vong 131] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (361877) pppos_main: [Vong 132] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (364377) pppos_main: [Vong 133] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (366877) pppos_main: [Vong 134] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (370377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (370377) pppos_main: [Vong 135] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (372877) pppos_main: [Vong 136] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (375377) pppos_main: [Vong 137] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (377877) pppos_main: [Vong 138] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (380377) pppos_main: [Vong 139] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (383877) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (383877) pppos_main: [Vong 140] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (386377) pppos_main: [Vong 141] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (388877) pppos_main: [Vong 142] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (391377) pppos_main: [Vong 143] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (393877) pppos_main: [Vong 144] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;32mI (397377) pppos_main: [Debug Check] Module co dang song khong? Phan hoi: TIMEOUT / RONG[0m
+[0;31mE (397377) pppos_main: [Vong 145] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (399877) pppos_main: [Vong 146] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (402377) pppos_main: [Vong 147] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m
+[0;31mE (404877) pppos_main: [Vong 148] Chua the nhan dang SIM, xin dung rut module 4G hoac kiem tra lai khay cam SIM_VCC[0m

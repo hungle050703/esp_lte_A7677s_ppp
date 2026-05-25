@@ -1,0 +1,82 @@
+[0;32mI (13) boot: ESP-IDF v5.1.3 2nd stage bootloader[0m
+[0;32mI (13) boot: compile time Apr 15 2026 10:55:19[0m
+[0;32mI (13) boot: Multicore bootloader[0m
+[0;32mI (17) boot: chip revision: v3.1[0m
+[0;32mI (20) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (25) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (30) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (34) boot: Enabling RNG early entropy source...[0m
+[0;32mI (40) boot: Partition Table:[0m
+[0;32mI (43) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (50) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (58) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (65) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (73) boot: End of partition table[0m
+[0;32mI (77) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=153d0h ( 86992) map[0m
+[0;32mI (117) esp_image: segment 1: paddr=000253f8 vaddr=3ffb0000 size=02198h (  8600) load[0m
+[0;32mI (121) esp_image: segment 2: paddr=00027598 vaddr=40080000 size=08a80h ( 35456) load[0m
+[0;32mI (137) esp_image: segment 3: paddr=00030020 vaddr=400d0020 size=41730h (268080) map[0m
+[0;32mI (235) esp_image: segment 4: paddr=00071758 vaddr=40088a80 size=04e98h ( 20120) load[0m
+[0;32mI (250) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (250) boot: Disabling RNG early entropy source...[0m
+[0;32mI (261) cpu_start: Multicore app[0m
+[0;32mI (262) cpu_start: Pro cpu up.[0m
+[0;32mI (262) cpu_start: Starting app cpu, entry point is 0x400813dc[0m
+[0;32mI (0) cpu_start: App cpu up.[0m
+[0;32mI (280) cpu_start: Pro cpu start user code[0m
+[0;32mI (280) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (280) cpu_start: Application information:[0m
+[0;32mI (285) cpu_start: Project name:     esp_lte_a7677s_ppp[0m
+[0;32mI (291) cpu_start: App version:      7f22f6a-dirty[0m
+[0;32mI (296) cpu_start: Compile time:     Apr 15 2026 10:55:13[0m
+[0;32mI (302) cpu_start: ELF file SHA256:  5c1d2f07ed1396a8...[0m
+[0;32mI (308) cpu_start: ESP-IDF:          v5.1.3[0m
+[0;32mI (313) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (318) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (322) cpu_start: Chip rev:         v3.1[0m
+[0;32mI (327) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (335) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (340) heap_init: At 3FFB3460 len 0002CBA0 (178 KiB): DRAM[0m
+[0;32mI (347) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (353) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (360) heap_init: At 4008D918 len 000126E8 (73 KiB): IRAM[0m
+[0;32mI (367) spi_flash: detected chip: generic[0m
+[0;32mI (370) spi_flash: flash io: dio[0m
+[0;32mI (375) app_start: Starting scheduler on CPU0[0m
+[0;32mI (379) app_start: Starting scheduler on CPU1[0m
+[0;32mI (379) main_task: Started on CPU0[0m
+[0;32mI (389) main_task: Calling app_main()[0m
+[0;32mI (389) pppos_main: Khoi tao PPPoS cho A7677S[0m
+[0;32mI (389) pppos_main: Bat nguon module 4G A7677S bang PWRKEY...[0m
+[0;32mI (399) gpio: GPIO[13]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (409) gpio: GPIO[15]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (519) pppos_main: Kich hoat On/Off Pulse (1500 ms)...[0m
+[0;32mI (2019) pppos_main: Cho module 4G khoi dong (5000 ms)...[0m
+[0;32mI (7019) pppos_main: Cho board A7677S len dien (5 giay)...[0m
+[0;32mI (12019) pppos_main: Khoi dong mang cho A7677S[0m
+[0;32mI (12019) uart: queue free spaces: 30[0m
+[0;32mI (12019) pppos_main: Dang kiem tra the SIM... (Se lap lai lien tuc, cam SIM de tiep tuc)[0m
+[0;32mI (12029) pppos_main: => SIM Card OK! (Da nhan duoc the SIM)[0m
+[0;32mI (12059) pppos_main: Phien ban A7677S (ATI):
+IMEI: 861385070006906[0m
+[0;32mI (12069) pppos_main: IMEI thiet bi (AT+GSN): 861385070006906[0m
+[0;32mI (12079) pppos_main: Dang ky mang (AT+CREG?):
++CREG: 0,5[0m
+[0;32mI (12089) pppos_main: Nha mang dang ket noi (AT+COPS?):
++COPS: 0,2,"45202",7[0m
+[0;32mI (12109) pppos_main: Thong tin chi tiet mang (AT+CPSI?):
++CPSI: LTE,Online,452-02,0x482,28290828,370,EUTRAN-BAND3,1300,5,0,10,55,59,14[0m
+[0;32mI (12109) pppos_main: Song (AT+CSQ): RSSI=30 (0-31)[0m
+[0;32mI (12109) pppos_main: Dang chuyen sang Mode Data (PPPoS) de lay IP voi APN [v-internet]...[0m
+[0;32mI (12229) pppos_main: Da bat PPP, doi IP tu APN: v-internet[0m
+[0;32mI (12229) main_task: Returned from app_main()[0m
+[0;32mI (12549) pppos_main: ================================================[0m
+[0;32mI (12549) pppos_main: Modem da ket noi PPPoS Server thang cong![0m
+[0;32mI (12549) pppos_main: IP          : 10.59.158.8[0m
+[0;32mI (12549) esp-netif_lwip-ppp: Connected[0m
+[0;32mI (12549) pppos_main: Netmask     : 255.255.255.255[0m
+[0;32mI (12559) pppos_main: Gateway     : 10.64.64.64[0m
+[0;32mI (12569) pppos_main: Name Server1: 10.201.135.253[0m
+[0;32mI (12579) pppos_main: ================================================[0m
+[0;32mI (12579) pppos_main: DA CO MANG[0m
+[0;32mI (12589) pppos_main: PPP state changed event 0[0m

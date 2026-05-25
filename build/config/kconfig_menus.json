@@ -4408,7 +4408,7 @@
                 "id": "MODEM_TX_PIN",
                 "name": "MODEM_TX_PIN",
                 "range": null,
-                "title": "ESP32 TX Pin (GPIO2)",
+                "title": "ESP32 TX Pin (GPIO4)",
                 "type": "int"
             },
             {
@@ -4418,7 +4418,7 @@
                 "id": "MODEM_RX_PIN",
                 "name": "MODEM_RX_PIN",
                 "range": null,
-                "title": "ESP32 RX Pin (GPIO4)",
+                "title": "ESP32 RX Pin (GPIO2)",
                 "type": "int"
             },
             {
@@ -4428,7 +4428,7 @@
                 "id": "MODEM_PWRKEY_PIN",
                 "name": "MODEM_PWRKEY_PIN",
                 "range": null,
-                "title": "Modem PWRKEY Pin (GPIO15)",
+                "title": "Modem PWRKEY Pin (GPIO13)",
                 "type": "int"
             },
             {
@@ -4438,13 +4438,13 @@
                 "id": "MODEM_RST_PIN",
                 "name": "MODEM_RST_PIN",
                 "range": null,
-                "title": "Modem RESET Pin (GPIO13)",
+                "title": "Modem RESET Pin (GPIO15)",
                 "type": "int"
             },
             {
                 "children": [],
                 "depends_on": null,
-                "help": "APN name for your cellular provider (e.g., v-internet)",
+                "help": "APN name for your cellular provider (e.g., m-wap for Mobifone, v-internet for Viettel, m9-wintel for Wintel)",
                 "id": "MODEM_APN",
                 "name": "MODEM_APN",
                 "range": null,
@@ -19855,7 +19855,7 @@
                         "id": "LWIP_TCPIP_TASK_STACK_SIZE",
                         "name": "LWIP_TCPIP_TASK_STACK_SIZE",
                         "range": [
-                            2560,
+                            2048,
                             65536
                         ],
                         "title": "TCP/IP Task Stack Size",
